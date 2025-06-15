@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Fest Registration</title>
+</head>
+<body>
+  <h1>Register for the Tech Fest 2025</h1>
+  <form>
+    <div>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name">
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    </div>
+
+    <div>
+      <label for="year">Year of Study:</label>
+      <select id="year" name="year">
+        <option>Choose Year</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>4th Year</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+    </div>
+
+    <div>
+      <label>Events Interested In:</label><br>
+      <input type="checkbox" id="coding" name="events" value="coding">
+      <label for="coding">Coding</label><br>
+      <input type="checkbox" id="robotics" name="events" value="robotics">
+      <label for="robotics">Robotics</label><br>
+      <input type="checkbox" id="quiz" name="events" value="quiz">
+      <label for="quiz">Quiz</label>
+    </div>
+
+    <div>
+      <label for="comments">Any comments?</label><br>
+      <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+    </div>
+
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
